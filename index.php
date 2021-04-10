@@ -4,9 +4,9 @@
 	<title>Oxyboost</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css?time="<?php echo time();?>/>
+	<link rel="stylesheet" href="css/style.css?time="<?php echo time();?>>
+	<link rel="stylesheet" href="css/responsive.css?time="<?php echo time();?>>
 </head>
 <header>
 	<div class="top-header">
