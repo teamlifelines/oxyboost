@@ -8,7 +8,7 @@ ul li {list-style: none; margin: 0; }
 .mb-30 { margin-bottom: 30px; }
 .navbar-brand{
 	display: inline-block;
-    max-width: 177px;
+    max-width: 120px;
 }
 .logo-img{
 	width: 100%;
@@ -25,7 +25,7 @@ ul li {list-style: none; margin: 0; }
 
 /*header*/
 .header-top-section {background: #0288bf; padding: 4px 0; }
- .header-logo a {color: #00a0e3; font-size: 33px; text-transform: uppercase; }
+ .header-logo a {color: white; font-size: 33px; text-transform: uppercase; }
  .header-top-link p, .header-top-link a, .header-top-link span {color: #fff; margin: 0; opacity: 0.60; }
  .header-top-link span {color: #fff; opacity: 0.6; font-size: 14px; border-bottom: 1px solid #fff; }
  .header-top-section-wrapper {display: flex; align-items: center; justify-content: space-between; }
@@ -34,7 +34,7 @@ ul li {list-style: none; margin: 0; }
  .header-menu ul li a:hover:before {width: 50%; }
 
 /*footer*/
-.footer-wrapper {background: #1a1a1a; padding: 50px 0 0px; }
+.footer-wrapper {background: #0288bf; padding: 50px 0 0px; }
  .footer-title h3 {color: #fff; font-size: 22px; margin: 0; }
  .footer-head-office-wrap.contact-bottom-ul {background: transparent; padding: 0; margin: 0; width: 100%; }
  .footer-head-office-wrap.contact-bottom-ul ul li:before { border: none; filter: contrast(0); }
@@ -43,16 +43,16 @@ ul li {list-style: none; margin: 0; }
  .footer-social.tax-social ul {display: flex; align-items: center; }
  .footer-social.tax-social ul li {background: #3c3c3c; margin-right: 10px; transition: all 0.2s ease; }
  .footer-social.tax-social ul li:hover {  background: #00a0e3;}
-.footer-head-office-wrap.contact-bottom-ul li p, .footer-head-office-wrap.contact-bottom-ul li a {color: #808080; opacity: 1;    font-size: 15px;}
+.footer-head-office-wrap.contact-bottom-ul li p, .footer-head-office-wrap.contact-bottom-ul li a {color: white; opacity: 1;    font-size: 15px;}
  .footer-social.tax-social ul li a {background-size: 13px !important; filter: brightness(3); }
  .footer-top-text p {color: #fff; opacity: 0.6; font-size: 15px; }
  .footer-title {margin-bottom: 25px; }
  .footer-top-text {margin-bottom: 30px; }
  .footer-links-menu ul li a {color: #151fa5; margin: 0; padding: 0; font-size: 14px; }
- .footer-menu-bottom-wrap ul li a {color: #808080; margin-right: 15px; }
+ .footer-menu-bottom-wrap ul li a {color: white; margin-right: 15px; }
  .footer-copyright p {color: #fff; margin-right: 15px; opacity: 0.6; margin: 0; }
  .footer-menu-bottom-wrap{display: flex; align-items: center; justify-content: space-between; }
- .footer-menu-bottom {background: #1c1c1c; padding: 15px 0; margin-top: 80px; }
+ .footer-menu-bottom {background: #0288bf; padding: 15px 0; margin-top: 80px; }
  .row.footer-links-menu {margin-top: 70px; }
  .header-call a.button-red {border-radius: 0; position: relative; min-height: 58px; padding-left: 50px; padding-right: 50px; }
  .header-call a.button-red:before {position: absolute; content: ""; background: url(../images/phone-call.svg); width: 15px; height: 15px; left: 26px; background-size: 100%; }
@@ -70,7 +70,7 @@ ul li {list-style: none; margin: 0; }
 
   .header-banner-img img {
     width: 100%;
-/*     height: 440px; */
+    height: auto;
     object-fit: cover;
 }
 .gallery-wrappper img.img-fluid {
@@ -81,4 +81,27 @@ ul li {list-style: none; margin: 0; }
  
  .how-to-video iframe {
     width: 100%;
+}
+
+
+
+.site-identity {
+    float: left;
+}
+.head-text{
+    margin: .9em 0 .3em 0;
+    display: inline-block;
+}
+.site-identity img {
+    max-width: 150px;
+    float: left;
+    margin: 0 10px 0 0;
+}
+.nav-link{
+    color: white !important;
+    font-size: 25px;
+}
+video {
+  width: 100%;
+  height: 400px;
 }
