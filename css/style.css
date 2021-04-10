@@ -24,7 +24,7 @@ ul li {list-style: none; margin: 0; }
 .page-banner.servies-detail {  background: url(../images/ser-07.jpg) no-repeat; }
 
 /*header*/
-.header-top-section {background: #fff; padding: 4px 0; }
+.header-top-section {background: #0288bf; padding: 4px 0; }
  .header-logo a {color: #00a0e3; font-size: 33px; text-transform: uppercase; }
  .header-top-link p, .header-top-link a, .header-top-link span {color: #fff; margin: 0; opacity: 0.60; }
  .header-top-link span {color: #fff; opacity: 0.6; font-size: 14px; border-bottom: 1px solid #fff; }
