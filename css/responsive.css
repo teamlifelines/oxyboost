@@ -32,4 +32,10 @@
 	    color: white !important;
 	    font-size: 20px;
 	}
+
+	.header-banner-img img {
+	    width: 100%;
+	    height: auto !important;
+	    object-fit: cover;
+	}
 }
